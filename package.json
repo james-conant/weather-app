@@ -1,0 +1,35 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for react apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-conant/react-boilerplate.git"
+  },
+  "author": "James Conant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-conant/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/james-conant/react-boilerplate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {}
+}
