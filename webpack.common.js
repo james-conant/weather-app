@@ -11,6 +11,10 @@ module.exports = {
         loader: "babel-loader",
         options: { presets: ["@babel/env"] },
       },
+      // {
+      //   test: /\.html$/,
+      //   use: ["html-loader"],
+      // },
       {
         test: /\.(svg|png|jpg|gif)$/,
         use: {
