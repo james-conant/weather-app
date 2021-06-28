@@ -12,7 +12,7 @@ module.exports = {
         options: { presets: ["@babel/env"] },
       },
       // {
-      //   test: /\.html$/,
+      //   test: /\.html$/, // no longer needed with WebPack5. file-loader does this
       //   use: ["html-loader"],
       // },
       {
